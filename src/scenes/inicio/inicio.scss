@@ -1,0 +1,33 @@
+.band {
+    padding: 2% 5%;
+
+    & > h1, h2, h3, h4 {
+        font-weight: 400;
+    }
+}
+
+.text-content {
+    .title {
+        font-size: 1.58em;
+    }
+
+    .list {
+        margin: 0 4%;
+        display: flex;
+        .item {
+            margin: 2px 0;
+            & > .icon {
+                color: greenyellow;
+                margin-right: 4px;
+                width: 35px;
+                height: 35px;
+            }
+
+            & > label {
+                margin-right: 6px;
+                margin-bottom: 0;
+                font-size: 1.2em;
+            }
+        }
+    }
+}

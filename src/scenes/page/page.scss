@@ -1,0 +1,20 @@
+.inicio-content {
+    scroll-behavior: smooth;
+    position: relative;
+    .content {
+        
+        .main-name {
+            padding: 50px 20px;
+        }
+        .sub-content {
+            height: 100vh;
+            &::before {
+                height: var(--nav-height);
+                width: 100%;
+                display: block;
+                content: '';
+            }
+        }
+    }
+}
+

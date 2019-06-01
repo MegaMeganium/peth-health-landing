@@ -1,0 +1,18 @@
+$primary-width: 300px;
+$secondary-width: 200px;
+$secondary-height: 400px;
+
+.carousel {
+    &.slide {
+        & > a {
+            background-color: #cccccc;
+        }
+    }
+}
+
+.carousel-item {
+    & > img {
+        width: 300px;
+        height: 570px;
+    }
+}
