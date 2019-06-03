@@ -3,6 +3,10 @@
 
     & > h1, h2, h3, h4 {
         font-weight: 400;
+        
+        @media (max-height: 675px) {
+            font-size: 4vw;
+        }
     }
 }
 
@@ -30,4 +34,15 @@
             }
         }
     }
+}
+
+.inicio-page-content {
+    .carousel.slide {
+        height: 45vh !important;
+    }
+}
+
+.carousel-item > img {
+    width: auto !important;
+    height: 45vh !important;
 }

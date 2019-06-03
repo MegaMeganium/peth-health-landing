@@ -42,8 +42,15 @@ html {
                     &:hover {
                         color: #dac6c6;
                     }
+
+                    @media (max-width: 800px) {
+                        // font-size: 2.75vw;
+                        font-size: 3.5vw;
+                    }
                 }
             }
         }
     }
 }
+
+// max-width: 430px

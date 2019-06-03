@@ -7,7 +7,7 @@ import './inicio.scss';
 class Inicio extends Component {
     render() {
         return (
-            <>
+            <div className="inicio-page-content">
             <Gallery>
                 <img src={`${process.env.PUBLIC_URL}/assets/image2.jpeg`} alt="error" />
                 <img src={`${process.env.PUBLIC_URL}/assets/image1.png`} alt="error" />
@@ -29,7 +29,7 @@ class Inicio extends Component {
                     </div>
                 </div>
             </div>
-            </>
+            </div>
         );
     }
 }
