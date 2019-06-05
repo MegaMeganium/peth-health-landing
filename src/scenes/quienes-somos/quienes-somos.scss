@@ -1,0 +1,32 @@
+.quienes-somos-content {
+    padding: 3%;
+
+    .content {
+        .main-title {
+            padding: 1.9% 1.4%;
+            margin: 0;
+            font-size: 250%;
+        }
+        .m-border {
+            margin: 3% 3%;
+        }
+        &.row-1 {
+            .who-we-are {
+                & > * {
+                    margin: 0;
+                }
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+
+        &.row-2 {
+            .registration {
+                & > * {
+                    margin: 5%;
+                }
+            }
+        }
+    }
+}

@@ -9,7 +9,7 @@ import {
 
   import './image-gallery.scss';
 
-interface IProps {
+interface IProps extends React.HTMLAttributes<HTMLDivElement>{
     slideContent?: { captionHeader?: string, caption?: string }[];
 }
 
@@ -93,6 +93,7 @@ class Gallery extends Component<IProps, IState> {
                 activeIndex={activeIndex}
                 next={this.next}
                 previous={this.previous}
+                className={this.props.className}
             >
                 <CarouselIndicators items={items as object[]} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
                 {slides}

@@ -4,27 +4,32 @@
     & > h1, h2, h3, h4 {
         font-weight: 400;
         
-        @media (max-height: 675px) {
-            font-size: 4vw;
-        }
+        // @media (max-height: 675px) {
+        //     font-size: 4vw;
+        // }
     }
 }
 
 .text-content {
     .title {
-        font-size: 1.58em;
+        margin: 0 4%;
+        font-size: 1.68em;
+        text-align: left;
+        padding-left: 2%;
     }
 
     .list {
-        margin: 0 4%;
-        display: flex;
+        margin: 4px 0 1% 4%;
+        display: block;
+        padding: 2px 2%;
+        text-align: left;
         .item {
             margin: 2px 0;
             & > .icon {
                 color: greenyellow;
                 margin-right: 4px;
-                width: 35px;
-                height: 35px;
+                width: 30px;
+                height: 30px;
             }
 
             & > label {
@@ -37,8 +42,19 @@
 }
 
 .inicio-page-content {
+    display: flex;
+    padding: 3%;
     .carousel.slide {
         height: 45vh !important;
+    }
+
+    .gallery-container {
+        width: 50%;
+        
+    }
+
+    .summary-content {
+        width: 50%;
     }
 }
 

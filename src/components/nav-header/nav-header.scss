@@ -37,16 +37,16 @@ html {
 
                 & > * {
                     color: #9d9d9d;
-                    font: 22px 'Stint Ultra Condensed';
+                    font: 23px 'Stint Ultra Condensed';
 
                     &:hover {
                         color: #dac6c6;
                     }
 
-                    @media (max-width: 800px) {
-                        // font-size: 2.75vw;
-                        font-size: 3.5vw;
-                    }
+                    // @media (max-width: 800px) {
+                    //     // font-size: 2.75vw;
+                    //     font-size: 3.5vw;
+                    // }
                 }
             }
         }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { navItems, INavItems } from '../../commons/index';
-
+import logo from '../../logo.svg';
 import './nav-header.scss';
 
-interface IProps /*extends RouteComponentProps*/ {}
+interface IProps /*extends RouteComponentProps*/ { }
 
 class NavHeader extends Component<IProps> {
     renderItem(item: INavItems, index: number) {
@@ -17,6 +17,7 @@ class NavHeader extends Component<IProps> {
         return (
             <nav className="navigation">
                 <div className="header">
+                    <img src={logo} className="App-logo" alt="logo" />
                     <div className="items">
                         {
                             navItems.map(this.renderItem)
